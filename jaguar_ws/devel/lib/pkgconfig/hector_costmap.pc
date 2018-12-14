@@ -1,0 +1,8 @@
+prefix=/home/davi/Desktop/jaguar_ws/devel
+
+Name: hector_costmap
+Description: Description of hector_costmap
+Version: 0.0.0
+Cflags: -I/home/davi/Desktop/jaguar_ws/devel/include
+Libs: -L/home/davi/Desktop/jaguar_ws/devel/lib 
+Requires: 

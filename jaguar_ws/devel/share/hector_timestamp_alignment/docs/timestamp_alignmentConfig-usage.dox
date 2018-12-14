@@ -1,0 +1,7 @@
+\subsubsection usage Usage
+\verbatim
+<node name="hector_timestamp_alignment" pkg="hector_timestamp_alignment" type="hector_timestamp_alignment">
+  <param name="imu_offset" type="double" value="0.0" />
+</node>
+\endverbatim
+

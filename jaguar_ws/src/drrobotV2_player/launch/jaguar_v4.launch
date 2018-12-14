@@ -1,0 +1,19 @@
+<launch>
+ <!-- Jaguar Node-->
+  <node name="jaguar_player" pkg="drrobot_jaguarV2_player" type="drrobot_jaguarv2_player_node"/>
+
+ <!-- joy node -->
+  <node name="jaguar_joy" respawn="true" pkg="joy"
+        type="joy_node" >
+    <param name="dev" type="string" value="/dev/input/js0" />
+    <param name="deadzone" value="0.12" />
+  </node>
+
+ <!-- Axes -->
+  <param name="axis_linear" value="1" type="int"/>
+  <param name="axis_angular" value="0" type="int"/>
+  <param name="scale_linear" value="3" type="double"/>
+  <param name="scale_angular" value="3" type="double"/>
+  <node name="jaguar_teleop" pkg="drrobot_jaguarV2_player" type="drrobot_jaguarv2_joy_teleop_node" />
+
+</launch>

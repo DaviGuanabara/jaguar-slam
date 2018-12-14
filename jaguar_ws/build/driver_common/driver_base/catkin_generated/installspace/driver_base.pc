@@ -1,0 +1,8 @@
+prefix=/home/davi/Desktop/jaguar_ws/install
+
+Name: driver_base
+Description: Description of driver_base
+Version: 1.6.8
+Cflags: -I/home/davi/Desktop/jaguar_ws/install/include -I/usr/include
+Libs: -L/home/davi/Desktop/jaguar_ws/install/lib 
+Requires: message_runtime std_msgs

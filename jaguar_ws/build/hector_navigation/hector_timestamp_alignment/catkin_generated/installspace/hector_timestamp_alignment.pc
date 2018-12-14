@@ -1,0 +1,8 @@
+prefix=/home/davi/Desktop/jaguar_ws/install
+
+Name: hector_timestamp_alignment
+Description: Description of hector_timestamp_alignment
+Version: 0.0.0
+Cflags: -I/home/davi/Desktop/jaguar_ws/install/include
+Libs: -L/home/davi/Desktop/jaguar_ws/install/lib 
+Requires: 

@@ -1,0 +1,8 @@
+prefix=/home/davi/Desktop/jaguar_ws/install
+
+Name: learning_joy
+Description: Description of learning_joy
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/davi/Desktop/jaguar_ws/install/lib 
+Requires: 

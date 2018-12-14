@@ -1,0 +1,8 @@
+prefix=/home/davi/Desktop/jaguar_ws/install
+
+Name: hokuyo_node
+Description: Description of hokuyo_node
+Version: 1.7.8
+Cflags: -I/home/davi/Desktop/jaguar_ws/install/include
+Libs: -L/home/davi/Desktop/jaguar_ws/install/lib -llibhokuyo
+Requires: rosconsole

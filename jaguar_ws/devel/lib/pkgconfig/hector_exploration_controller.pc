@@ -1,0 +1,8 @@
+prefix=/home/davi/Desktop/jaguar_ws/devel
+
+Name: hector_exploration_controller
+Description: Description of hector_exploration_controller
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/davi/Desktop/jaguar_ws/devel/lib 
+Requires: 

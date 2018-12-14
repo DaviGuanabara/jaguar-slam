@@ -1,0 +1,8 @@
+prefix=/home/davi/Desktop/jaguar_ws/install
+
+Name: turtlebot_msgs
+Description: Description of turtlebot_msgs
+Version: 2.2.1
+Cflags: -I/home/davi/Desktop/jaguar_ws/install/include
+Libs: -L/home/davi/Desktop/jaguar_ws/install/lib 
+Requires: std_msgs sensor_msgs std_srvs message_runtime

@@ -1,0 +1,8 @@
+prefix=/home/davi/Desktop/jaguar_ws/devel
+
+Name: drrobot_jaguarV2_player
+Description: Description of drrobot_jaguarV2_player
+Version: 1.2.1
+Cflags: -I/home/davi/Desktop/jaguar_ws/devel/include -I/home/davi/Desktop/jaguar_ws/src/drrobotV2_player/include
+Libs: -L/home/davi/Desktop/jaguar_ws/devel/lib 
+Requires: DrRobotMotionSensorDriver geometry_msgs nav_msgs roscpp roslib rospy sensor_msgs std_msgs tf

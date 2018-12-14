@@ -1,0 +1,8 @@
+prefix=/home/davi/Desktop/jaguar_ws/devel
+
+Name: unique_id
+Description: Description of unique_id
+Version: 1.0.6
+Cflags: -I/home/davi/Desktop/jaguar_ws/src/unique_identifier/unique_id/include -I/usr/include
+Libs: -L/home/davi/Desktop/jaguar_ws/devel/lib 
+Requires: uuid_msgs

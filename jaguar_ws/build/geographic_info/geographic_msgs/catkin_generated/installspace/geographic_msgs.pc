@@ -1,0 +1,8 @@
+prefix=/home/davi/Desktop/jaguar_ws/install
+
+Name: geographic_msgs
+Description: Description of geographic_msgs
+Version: 0.5.3
+Cflags: -I/home/davi/Desktop/jaguar_ws/install/include
+Libs: -L/home/davi/Desktop/jaguar_ws/install/lib 
+Requires: message_runtime geometry_msgs uuid_msgs std_msgs
